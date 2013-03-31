@@ -75,7 +75,7 @@ public class PagedViewCellLayout extends ViewGroup implements Page {
         mChildren = new PagedViewCellLayoutChildren(context);
         mChildren.setCellDimensions(mCellWidth, mCellHeight);
         mChildren.setGap(mWidthGap, mHeightGap);
-
+        // 在这里添加PagedViewCellLayoutChildren   实际存放Apps
         addView(mChildren);
     }
 

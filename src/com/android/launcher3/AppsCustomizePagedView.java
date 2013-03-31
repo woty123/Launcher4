@@ -354,6 +354,7 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
         mClingFocusedY = a.getInt(R.styleable.AppsCustomizePagedView_clingFocusedY, 0);
         a.recycle();
         // －－－－－－－－－－－－－－－
+        // 这个Layout  是用来放置Widget的
         mWidgetSpacingLayout = new PagedViewCellLayout(getContext());
 
         // The padding on the non-matched dimension for the default widget preview icons
